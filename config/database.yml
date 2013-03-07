@@ -27,12 +27,14 @@ test:
   # database: db/test.sqlite3
   adapter: postgresql
   host: localhost
-  database: dev_rails_tut
+  database: dev_rails_tut_test
   pool: 5
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  # adapter: sqlite3
+  # database: db/production.sqlite3
+  adapter: postgresql
+  database: dev_rails_tut
   pool: 5
   timeout: 5000
