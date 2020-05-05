@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails', '4.0.0'
 gem 'pg', '0.12.2'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
@@ -9,7 +9,7 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.12.2'
   gem 'guard-rspec', '1.2.1'
 end
 
@@ -21,8 +21,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '3.2.5'
-  gem 'coffee-rails', '3.2.2'
+  gem 'sass-rails', '4.0.0'
+  gem 'coffee-rails', '4.0.0'
   gem 'uglifier',     '1.2.3'
 end
 
